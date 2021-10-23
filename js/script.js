@@ -15,14 +15,6 @@ document.querySelector('nav').addEventListener('click', (event) => {
 
 });
 
-document.querySelector('.social__btn').addEventListener('click', (event) => {
-    if (document.querySelector('.social').classList.contains('_active')) {
-        document.querySelector('.social').classList.remove('_active');
-    } else {
-        document.querySelector('.social').classList.add('_active');
-    }
-});
-
 
 function testWebP(callback) {
 
